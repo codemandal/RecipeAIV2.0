@@ -1,12 +1,32 @@
-# React + Vite
+# 🍳 Recipe AI Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern AI-powered Recipe Generator built with **React** in **Visual Studio 2022**, using **Hugging Face** for natural language processing and **Groq API** for high-speed LLM inference. The app allows users to input available ingredients or preferences and instantly receive personalized, creative, and step-by-step recipes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 **AI-Powered Recipes**: Generate custom recipes using Hugging Face LLMs and Groq inference.
+- 🥗 **Ingredient-based Search**: Input ingredients and get tailored dishes.
+- 📋 **Step-by-Step Instructions**: Easy-to-follow directions generated in real time.
+- 🖼️ **Image Generation (Optional)**: Visualize dishes using Hugging Face image generation models.
+- 💡 **Smart Suggestions**: Substitutes, serving ideas, and dietary adjustments.
+- ⚡ **Fast Inference with Groq**: Utilizes Groq’s ultra-low latency API for near-instant responses.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React      | Front-end UI |
+| JavaScript / TypeScript | App logic |
+| Hugging Face Transformers API | Recipe generation, NLP |
+| Groq Cloud API | Fast inference |
+| Axios / Fetch | API calls |
+| Visual Studio 2022 | Development Environment |
+| Tailwind CSS / Bootstrap (optional) | Styling |
+
+---
+
+## 🧩 Project Structure
